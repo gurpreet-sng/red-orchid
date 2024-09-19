@@ -245,7 +245,13 @@ body{
     width: 250px;
     margin: auto;
 }
-
+.service-box{
+    border: 1px solid #D3D5D6;
+    padding: 50px 0px;
+}
+.our-expertise-intro .section-content.padding50{
+    padding: 84px 50px;
+}
 @media only screen and (min-width: 1920px){
 
     .container-fluid {
