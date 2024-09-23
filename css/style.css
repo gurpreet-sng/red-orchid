@@ -320,6 +320,52 @@ body{
     line-height: 35px;
     font-weight: 300;
 }
+.why-choose-section-tabs .nav-link.active{
+    border-radius: 0px;
+    border-bottom: 1px solid #000000;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+.why-choose-section-tabs .nav-link{
+    border: 0px;
+    font-size: 19px;
+    color: #000000 !important;
+    padding: 20px 0px 20px 0px;
+}
+.why-choose-section-tabs .nav.nav-tabs{
+    border-color: #dddddd;
+    margin-bottom: 70px;
+}
+.why-choose-section-tabs .nav-item{
+    padding-right: 60px;
+}
+.why-choose-section-tabs .nav-tabs .nav-link:focus,.why-choose-section-tabs .nav-tabs .nav-link:hover{
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+.tab-content-wrapper{
+    margin-left: 50px;
+}
+.space-top-100{
+    padding-top: 100px;
+}
+.line-seprator{
+    margin-top: 20px;
+}
+.client-says{
+    background-color: #121C27;
+}
+.testimonials-section-wrapper{
+
+}
+.our-expertise-intro h5{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 17px;
+}
 @media only screen and (min-width: 1920px){
 
     .container-fluid {
