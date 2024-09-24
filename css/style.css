@@ -285,6 +285,9 @@ body{
     left: -200px;
     top: -120px;
     width: 170px;
+    position: absolute;
+    bottom: 40px;
+    top: auto;
 }
 .our-expertise-section .owl-dots{
     display: none;
@@ -358,14 +361,311 @@ body{
 .client-says{
     background-color: #121C27;
 }
-.testimonials-section-wrapper{
-
-}
 .our-expertise-intro h5{
     color: #ffffff;
     font-weight: 300;
     font-size: 17px;
+    margin-bottom: 50px;
 }
+.why-choose-section{
+    padding: 30px 0px;
+    background-image: url("../images/why-choose-bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.testimonials-image{
+    background-image: url("../images/tes.jpg");
+}
+.testimonials-section-wrapper hr{
+    background-color: #353e47;
+    color: #aabdcf;
+}
+.testimonials-section-wrapper .our-expertise-intro .section-content.padding50{
+    padding: 104px 50px 120px;
+}
+.testimonials-section-wrapper .padding50{
+    padding: 104px 50px 50px;
+}
+.client-intro{
+    display: flex;
+    align-items: center;
+}
+.client-name h6{
+    color: #ffffff;
+}
+.client-name p{
+    color: #848B94;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.client-name{
+    margin-left: 15px;
+}
+.underline-link{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.testimonials-section-wrapper .our-expertise-intro .text-end{
+    margin-bottom: 0px;
+}
+.testimonials-section-wrapper .section-content{
+    padding-bottom: 30px;
+}
+.owl-two{
+    position: relative;
+}
+.owl-two .owl-prev span,.owl-two .owl-next span{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    line-height: 18px;
+}
+.owl-two .owl-prev span{
+    left: 10px;
+}
+.owl-two .owl-next span{
+    right: 10px;
+}
+.owl-two .owl-nav{
+    height: 0px;
+}
+.collaboration-section .section-content h2{
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+.collaboration-section{
+    background-image: url("../images/collaboration-bg.jpg");
+    padding: 145px 0px;
+    background-size: cover;
+}
+.collaboration-section h6{
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+.collaboration-section p{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 300;
+    margin: 0px;
+}
+.btn-style.transparent-btn{
+    min-width: 420px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 22px;
+}
+.btn-style.transparent-btn i{
+    position: relative;
+    top: -1px;
+    right: -10px;
+}
+.latest-news-section p{
+    color: #4B535D;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 300;
+    margin: 0px 0px 20px;
+}
+.border-style{
+    position: relative;
+    width: 380px;
+    margin: auto;
+    height: 20px;
+    border-top: 1px solid #979797;
+}
+.border-style:before{
+    content: "";
+    width: 105px;
+    height: 5px;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.news-box{
+    border: 1px solid #D3D5D6;
+}
+.news-content{
+    padding: 35px;
+}
+.news-content h4{
+    font-size: 21px;
+    color: #0A1119;
+}
+.news-content p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.news-boder{
+    border-top: 1px solid #979797;
+    position: relative;
+    margin: 20px 0px;
+}
+.news-boder:before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: auto;
+    width: 60px;
+}
+.news-content a{
+    text-decoration: none;
+    color: #000000;
+}
+.news-content a i{
+    margin-left: 10px;
+}
+.news-image{
+    position: relative;
+}
+.news-date{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 70px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    right: 15px;
+    bottom: 15px;
+}
+.news-date h3{
+    margin-bottom: 0px;
+    font-size: 35px;
+    line-height: 40px;
+}
+.news-date p{
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 18px;
+}
+.latest-news-section .section-content{
+    margin-bottom: 80px;
+}
+.footer-section{
+    background-color: #121C27;
+    padding-top: 100px;
+}
+.footer-content p{
+    color: #C4C4C4;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-content a{
+    color: #ffffff;
+}
+.company-information p a{
+    text-decoration: none;
+    color: #C4C4C4;
+}
+.company-information h5{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-content{
+    margin-bottom: 50px;
+}
+.social-links a{
+    color: #505A66;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.social-links{
+    margin-top: 60px;
+}
+.company-information ul{
+    margin: 0px;
+    padding: 0px;
+}
+.company-information ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.company-information ul li a{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+.newsletter .form-control{
+    background-color: #353E47;
+    border: 0px;
+    height: 60px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 0px 20px;
+}
+.newsletter{
+    position: relative;
+    margin-top: 50px;
+}
+.newsletter .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.newsletter .form-control::-ms-input-placeholder { /* Edge 12-18 */
+    color: #ffffff;
+  }
+  
+  .newsletter .form-control::placeholder{
+    color: #ffffff;
+  }
+  .form-control:focus{
+    box-shadow: none;
+    border: 0px;
+  }
+  .client-image{
+    flex-shrink: 0;
+  }
+  .footer-section .client-intro{
+    margin-top: 40px;
+  }
+  .footer-bottom p{
+    color: #C7C9CA;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .footer-bottom a{
+    color: #C7C9CA;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0px 5px;
+  }
+  .footer-bottom-links{
+    color: #C7C9CA;
+    text-align: right;
+    font-size: 14px;
+  }
+  .footer-bottom{
+    border-top: 1px solid #aabdcf;
+    padding: 20px 0px;
+    margin-top: 60px;
+  }
 @media only screen and (min-width: 1920px){
 
     .container-fluid {
