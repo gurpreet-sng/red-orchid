@@ -666,6 +666,12 @@ body{
     padding: 20px 0px;
     margin-top: 60px;
   }
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    }
+    .form-select:focus{
+        box-shadow: none;
+    }
 @media only screen and (min-width: 1920px){
 
     .container-fluid {
