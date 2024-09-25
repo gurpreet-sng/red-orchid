@@ -20,12 +20,12 @@
         <div class="spaceleft-right header-section-wrapper">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-3">
                         <div class="mainlogo">
-                            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                            <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-9">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="icon-links">
@@ -92,7 +92,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 hide-on-mobile">
                             <div class="row align-items-center">
                                 <div class="col-md-6">
                                     <div class="icon-links">
@@ -185,7 +185,7 @@
                                 <a class="btn-style" href="#" role="button">Learn More About Us</a>
                             </div>
                             <div class="col-md-6">
-                                <a class="play-button" href="#" role="button"><i><img src="images/play.png"></i>Watch video!</a>
+                                <a class="play-button" href="#" role="button"><i><img src="images/play.png" class="img-fluid"></i>Watch video!</a>
                             </div>
                         </div>
                     </div>
@@ -589,7 +589,22 @@
                     nav:true,
                     autoplay:true,
                     autoplayTimeout:2000,
-                    autoplayHoverPause:true
+                    autoplayHoverPause:true,
+
+                    responsive:{
+                        0:{
+                            items:1,
+                            nav:true
+                        },
+                        576:{
+                            items:3,
+                            nav:false
+                        },
+                        1000:{
+                            items:3,
+                            nav:true,
+                            loop:false
+                        }}
                 });
 
                 $('.owl-two').owlCarousel({
