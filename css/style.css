@@ -877,7 +877,9 @@ body{
     .navbar-toggler:focus{
         box-shadow: none;
     }
-    
+    .navbar .col-lg-6{
+        
+    }
     .navbar {
         padding: 15px 0px;
         position: absolute;
