@@ -867,12 +867,32 @@ body{
 }
 @media only screen and (max-width:767px){
 
+    .spaceleft-right.header-section-wrapper{
+        position: relative;
+    }
+    .navbar-nav.me-auto {
+        background-color: #121C27;
+        margin-top: 30px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    
+    .navbar {
+        padding: 15px 0px;
+        position: absolute;
+        z-index: 20;
+        top: 20px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+    }
     .navbar-expand-md .navbar-nav .nav-link{
         text-align: center;
         padding: 10px 0px;
     }
     .mainlogo{
-        text-align: center;
+        text-align: left;
         margin-bottom: 10px;
     }
     .icon-links{
