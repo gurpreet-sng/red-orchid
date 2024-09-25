@@ -872,13 +872,11 @@ body{
     }
     .navbar-nav.me-auto {
         background-color: #121C27;
-        margin-top: 30px;
+        margin-top: 23px;
+        padding-bottom: 20px;
     }
     .navbar-toggler:focus{
         box-shadow: none;
-    }
-    .navbar .col-lg-6{
-        
     }
     .navbar {
         padding: 15px 0px;
