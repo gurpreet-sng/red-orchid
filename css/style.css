@@ -5,6 +5,10 @@ body{
 }
 .services-detail-section .service-box{
     padding: 40px 0px;
+    min-height: 612px;
+}
+.services-detail-section .service-box p{
+    min-height: 96px;
 }
 .space-bottom-50{
     padding-bottom: 50px;
