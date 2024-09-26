@@ -104,6 +104,7 @@ body{
     background-image: url("../images/banner-images.jpg");
     background-size: cover;
     padding: 140px 0px;
+    background-position: top left;
 }
 .underline-link{
 
