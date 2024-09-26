@@ -18,6 +18,17 @@
 <body>
     <header>
         <div class="spaceleft-right header-section-wrapper">
+            
+<div id="search-menu">
+    <div class="wrapper">
+      <form id="form" action="#" method="">
+        <input id="popup-search" type="text" name="u" placeholder="Search for a user"/>
+        <button id="popup-search-button" type="submit" name="search"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+</div>
+
+
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-3">
@@ -106,7 +117,7 @@
                                     <div class="arrow-buttons"><a class="btn" href="#" role="button">Let's Talk <i><img src="images/arrow-right.png"></i></a></div>
                                 </div>
                                 <div class="col-md-2">
-                                    <div class="header-search"><img src="images/search-icon.png"></div>
+                                    <div class="header-search" id="search-icon"><img src="images/search-icon.png"></div>
                                 </div>
                             </div>
                         </div>
@@ -626,6 +637,25 @@
                 })
             
               });
+        </script>
+        <script>
+            $(function() {
+                $('#search-menu').removeClass('toggled');
+
+                $('#search-icon').click(function(e) {
+                    e.stopPropagation();
+                    $('#search-menu').toggleClass('toggled');
+                    $("#popup-search").focus();
+                });
+                
+                $('#search-menu input').click(function(e) {
+                    e.stopPropagation();
+                });
+
+                $('#search-menu, body').click(function() {
+                    $('#search-menu').removeClass('toggled');
+                });
+            });
         </script>
     </footer>
 </body>
