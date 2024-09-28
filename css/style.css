@@ -3,6 +3,9 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
+a:hover{
+    transition: all 0.3s ease-in-out 0s;
+}
 .services-detail-section .service-box{
     padding: 40px 0px;
     min-height: 612px;
@@ -512,7 +515,7 @@ body{
     padding: 22px;
 }
 .btn-style.transparent-btn:hover{
-    
+    background-color: #af864d;
 }
 .btn-style.transparent-btn i{
     position: relative;
@@ -576,6 +579,12 @@ body{
 .news-content a{
     text-decoration: none;
     color: #000000;
+}
+.news-content a:hover{
+    color: #af864d;
+}
+.company-information ul li a:hover{
+    color: #af864d;
 }
 .news-content a i{
     margin-left: 10px;
