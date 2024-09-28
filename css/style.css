@@ -1200,6 +1200,12 @@ a:hover{
 }
 @media only screen and (max-width:767px){
 
+    .nav-item ul{
+        display: block;
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
     .contact-section-wrapper .space-top-50{
         padding-top: 30px;
     }
