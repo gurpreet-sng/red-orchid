@@ -3,6 +3,12 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
+.social-links a:hover{
+    color: #af864d;
+}
+.footer-bottom-links a:hover{
+    color: #af864d;
+}
 a:hover{
     transition: all 0.3s ease-in-out 0s;
 }
