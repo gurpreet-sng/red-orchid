@@ -3,6 +3,9 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
+.company-information a:hover{
+    color: #af864d;
+}
 .social-links a:hover{
     color: #af864d;
 }
