@@ -142,7 +142,7 @@ a:hover{
     background-image: url("../images/banner-images.jpg");
     background-size: cover;
     padding: 140px 0px;
-    background-position: top left;
+    background-position: top right;
 }
 .banner-box{
     background-color: rgba(255, 255, 255, 0.8);
@@ -173,10 +173,11 @@ a:hover{
 }
 .banner-form{
     background-color: #121C27;
+    background-color: rgb(18, 28, 39, 0.8);
     position: absolute;
     bottom: 0px;
     padding: 40px 30px;
-    margin-bottom: -150px;
+    margin-bottom: -200px;
     max-width: 550px;
 }
 .banner-form h5{
@@ -984,6 +985,32 @@ a:hover{
     }
     .tab-boxed-content{
         padding: 40px;
+    }
+    .banner-box h1 {
+        font-size: 40px;
+    }
+    .banner-box{
+        max-width: 620px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 40px 15px 0px;
+    }
+    .arrow-buttons .btn{
+        padding: 15px;
+        font-size: 15px;
+    }
+    .section-content h2{
+        font-size: 40px;
+    }
+    .btn-style{
+        padding: 16px 25px;
+    }
+    .service-box h5{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .service-box{
+        padding: 38px 0px 86px;
     }
 }
 @media only screen and (max-width:1199px){
