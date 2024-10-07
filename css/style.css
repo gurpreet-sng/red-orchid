@@ -860,6 +860,12 @@ a:hover{
   .banner-section-wrapper.real-estate-banner{
     background-image: url("../images/real-estate-banner.jpg");
   }
+  .banner-section-wrapper.why-us-banner{
+    background-image: url("../images/why-us.jpg");
+  }
+  .banner-section-wrapper.contact-us-banner{
+    background-image: url("../images/contact-us-banner.jpg");
+  }
   .space-top-50{
     padding-top: 50px;
   }
