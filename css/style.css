@@ -1028,12 +1028,13 @@ a:hover{
     }
     .banner-form h5{
         font-size: 26px;
+        margin-bottom: 10px;
     }
     .tab-boxed-content{
         padding: 40px;
     }
     .banner-box h1 {
-        font-size: 26px;
+        font-size: 30px;
         margin-bottom: 15px;
     }
     .banner-box{
@@ -1047,7 +1048,7 @@ a:hover{
         font-size: 15px;
     }
     .section-content h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .btn-style{
         padding: 16px 25px;
@@ -1056,15 +1057,32 @@ a:hover{
         font-size: 22px;
         line-height: 28px;
     }
-    .service-box{
-        padding: 38px 0px 86px;
-    }
     .banner-box p{
         font-size: 14px;
         margin: 10px 0px;
     }
+    .banner-form p {
+        color: #C4C4C4;
+        margin: 10px 0px;
+    }
     .banner-box a{
         font-size: 16px;
+    }
+    .banner-form .btn{
+        margin-top: 0px;
+    }
+    .banner-form{
+        margin-bottom: -100px;
+    }
+    .about-us-section.space-top-200.space-bottom-50{
+        padding-top: 100px;
+    }
+    .our-expertise-intro .section-content.padding50{
+        min-height: 673px;
+    }
+    .service-box{
+        padding: 50px 0px;
+        min-height: 673px;
     }
 }
 @media only screen and (max-width:1199px){
@@ -1117,6 +1135,13 @@ a:hover{
     .tab-content .row.align-items-center{
         align-items: start !important;
     }
+    .our-expertise-intro .section-content.padding50{
+        min-height: 673px;
+    }
+    .service-box{
+        padding: 50px 0px;
+        min-height: 673px;
+    }
 } 
 @media only screen and (max-width:1024px){
 
@@ -1147,9 +1172,22 @@ a:hover{
     .collaboration-section{
         padding: 100px 0px;
     }
+    .our-expertise-intro .section-content.padding50{
+        min-height: 696px;
+    }
+    .service-box{
+        padding: 50px 0px;
+        min-height: 696px;
+    }
 }
 @media only screen and (max-width:991px){
 
+    .our-expertise-intro .section-content.padding50{
+        min-height: 700px;
+    }
+    .service-box{
+        min-height: 700px;
+    }
     .contact-section-wrapper{
         margin-bottom: 40px;
     }
@@ -1281,6 +1319,12 @@ a:hover{
 }
 @media only screen and (max-width:767px){
 
+    .our-expertise-intro .section-content.padding50{
+        min-height: auto;
+    }
+    .service-box{
+        min-height: 570px;
+    }
     .why-choose-section-tabs.project-management-tabs .nav-item {
         padding-right: 20px;
     }
@@ -1423,6 +1467,9 @@ a:hover{
 }
 @media only screen and (max-width:575px){
 
+    .service-box{
+        min-height: auto;
+    }
     .why-choose-section-tabs{
         padding: 0px 20px;
     }
