@@ -972,6 +972,9 @@ a:hover{
 .nav-item ul li a:hover{
     background-color: #f2f2f2;
 }
+.team-image img{
+    width: 100%;
+}
 @media only screen and (min-width: 1920px){
 
     .container-fluid {
