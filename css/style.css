@@ -1004,6 +1004,9 @@ a:hover{
     .container-fluid {
         width: 1720px;
     }
+    .banner-section-wrapper{
+        padding: 270px 0px;
+    }
 }
 @media only screen and (max-width:1440px){
 
