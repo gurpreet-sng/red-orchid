@@ -845,6 +845,21 @@ a:hover{
   .banner-section-wrapper.about-page-banner{
     background-image: url("../images/about.jpg");
   }
+  .banner-section-wrapper.home-care-nursing-banner{
+    background-image: url("../images/home-care.jpg");
+  }
+  .banner-section-wrapper.project-management-banner{
+    background-image: url("../images/project-management-banner.jpg");
+  }
+  .banner-section-wrapper.staff-management-banner{
+    background-image: url("../images/staff-management-banner.jpg");
+  }
+  .banner-section-wrapper.staff-management-banner{
+    background-image: url("../images/staff-management-banner.jpg");
+  }
+  .banner-section-wrapper.real-estate-banner{
+    background-image: url("../images/real-estate-banner.jpg");
+  }
   .space-top-50{
     padding-top: 50px;
   }
@@ -974,6 +989,9 @@ a:hover{
 }
 .team-image img{
     width: 100%;
+}
+.why-choose-section-tabs.project-management-tabs .nav-item{
+    padding-right: 110px;
 }
 @media only screen and (min-width: 1920px){
 
@@ -1230,6 +1248,9 @@ a:hover{
 }
 @media only screen and (max-width:767px){
 
+    .why-choose-section-tabs.project-management-tabs .nav-item {
+        padding-right: 20px;
+    }
     .nav-item ul{
         display: block;
         position: static;
