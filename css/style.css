@@ -3,6 +3,7 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
+
 .company-information a:hover{
     color: #af864d;
 }
@@ -253,17 +254,21 @@ a:hover{
 .section-content h6{
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: 20px;
+    font-size: 17px;
 }
 .section-content h2{
     font-size: 55px;
 }
 .section-content p{
     color: #4B535D;
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height: 28px;
     margin: 20px 0px;
+}
+.banner-section-wrapper .section-content p{
+    margin: 30px 0px;
 }
 .our-expertise-intro{
     background-color: #121C27;
@@ -893,7 +898,7 @@ a:hover{
     padding: 100px 50px;
     }
 .we-see-solutions .section-content h2{
-    font-size: 45px;
+    font-size: 43px;
 }
 .space-top-30{
     padding-top: 30px;
