@@ -3,6 +3,12 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
+.navbar-brand:hover{
+    color: #ffffff;
+}
+.navbar-brand:focus{
+    color: #ffffff;
+}
 .tabimage{
     margin-bottom: 40px;
 }
