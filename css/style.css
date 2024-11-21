@@ -87,7 +87,7 @@ a:hover{
 .icon-links p a{
     color: #C4C4C4;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 .menu-top-header ul{
@@ -155,11 +155,12 @@ a:hover{
     max-width: 870px;
 }
 .banner-box h1{
-    font-size: 54px;
+    font-size: 45px;
+    color: #000000;
 }
 .banner-box p{
-    color: #4B535D;
-    font-size: 17px;
+    color: #000000;
+    font-size: 20px;
     margin: 25px 0px;
 }
 .navbar{
@@ -168,7 +169,7 @@ a:hover{
 .banner-box a{
     color: #000000;
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 .banner-box a i{
@@ -214,7 +215,7 @@ a:hover{
     padding: 16px 35px;
     display: inline-block;
     border-radius: 100px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
     text-align: center;
 }
@@ -261,12 +262,13 @@ a:hover{
     font-size: 17px;
 }
 .section-content h2{
-    font-size: 55px;
+    font-size: 45px;
+    color: #000000;
 }
 .section-content p{
-    color: #4B535D;
-    font-size: 17px;
-    line-height: 28px;
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
     margin: 20px 0px;
 }
 .banner-section-wrapper .section-content p{
@@ -298,9 +300,9 @@ a:hover{
     padding: 0px 10px;
 }
 .service-box p{
-    color: #4B535D;
-    font-size: 15px;
-    line-height: 24px;
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
     padding: 0px 10px;
 }
 .service-box .btn-style{
@@ -313,9 +315,11 @@ a:hover{
 .service-box{
     border: 1px solid #D3D5D6;
     padding: 70px 0px 86px;
+    min-height: 750px;
 }
 .our-expertise-intro .section-content.padding50{
     padding: 104px 50px 120px;
+    min-height: 750px;
 }
 .our-expertise-section .owl-prev span{
     background-image: url("../images/arr-left.png");
@@ -370,8 +374,8 @@ a:hover{
 }
 .tab-boxed-content p{
     color: #ffffff;
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 34px;
     font-weight: 300;
     margin-bottom: 0px;
 }
@@ -383,10 +387,10 @@ a:hover{
     color: #0A1119;
 }
 .tab-content-text p{
-    font-size: 18px;
-    color: #4B535D;
-    line-height: 35px;
-    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    line-height: 37px;
+    font-weight: 400;
 }
 .why-choose-section-tabs{
     padding: 0px;
@@ -549,7 +553,7 @@ a:hover{
     right: -10px;
 }
 .latest-news-section p{
-    color: #4B535D;
+    color: #000000;
     font-size: 20px;
     line-height: 34px;
     font-weight: 400;
@@ -583,8 +587,8 @@ a:hover{
     color: #0A1119;
 }
 .news-content p{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 400;
 }
 .news-boder{
@@ -757,6 +761,11 @@ a:hover{
 }
 .navbar-brand{
     display: block;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
 }  
   #search-menu {
     position: fixed;
@@ -899,9 +908,6 @@ a:hover{
   .about-us-section .padding50.grey-background{
     padding: 100px 50px;
     }
-.we-see-solutions .section-content h2{
-    font-size: 43px;
-}
 .space-top-30{
     padding-top: 30px;
 }
@@ -954,7 +960,7 @@ a:hover{
     padding: 50px 0px;
 }
 .p-style {
-    color: #4B535D;
+    color: #000000;
     font-size: 18px;
     line-height: 35px;
     margin-bottom: 0px;
@@ -1005,6 +1011,12 @@ a:hover{
 }
 .why-choose-section-tabs.project-management-tabs .nav-item{
     padding-right: 110px;
+}
+.navbar-brand br{
+    display: none;
+}
+.about-us-section.our-focus-section .section-content.grey-background .btn-style{
+    margin-bottom: 15px;
 }
 @media only screen and (min-width: 1920px){
 
@@ -1065,7 +1077,6 @@ a:hover{
         line-height: 28px;
     }
     .banner-box p{
-        font-size: 14px;
         margin: 10px 0px;
     }
     .banner-form p {
@@ -1073,7 +1084,7 @@ a:hover{
         margin: 10px 0px;
     }
     .banner-box a{
-        font-size: 16px;
+        font-size: 20px;
     }
     .banner-form .btn{
         margin-top: 0px;
@@ -1124,9 +1135,7 @@ a:hover{
         padding-top: 150px;
         padding-bottom: 50px;
     }
-    .section-content h2{
-        font-size: 40px;
-    }
+   
     .about-us-section .align-items-center{
         align-items: start !important;
     }
@@ -1160,9 +1169,6 @@ a:hover{
     }
     .icon-links p{
         margin-left: 15px;
-    }
-    .section-content h2{
-        font-size: 35px;
     }
     .padding50{
         padding: 35px;
@@ -1326,6 +1332,18 @@ a:hover{
 }
 @media only screen and (max-width:767px){
 
+    .banner-section-wrapper .section-content p{
+        margin-top: 15px;
+    }
+    .services-detail-section .service-box{
+        min-height: auto;
+    }
+    .spaceleft-right.header-section-wrapper {
+        padding: 30px 20px 15px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
     .our-expertise-intro .section-content.padding50{
         min-height: auto;
     }
@@ -1374,7 +1392,7 @@ a:hover{
         padding: 15px 0px;
         position: absolute;
         z-index: 20;
-        top: 30px;
+        top: 10px;
         right: 0;
         width: 100%;
         text-align: right;
@@ -1465,15 +1483,20 @@ a:hover{
         text-align: left !important;
         margin-top: 20px;
     }
-    .we-see-solutions .section-content h2 {
-        font-size: 36px;
-    }
     .why-choose-section-tabs .nav-link{
         height: auto;
     }
+    
 }
 @media only screen and (max-width:575px){
 
+    .navbar-brand{
+        font-size: 18px;
+        display: inline-block;
+    }
+    .navbar-brand br{
+        display: inline-block;
+    }
     .service-box{
         min-height: auto;
     }
@@ -1545,12 +1568,9 @@ a:hover{
     .our-expertise-intro h5{
         margin-bottom: 30px;
     }
-    .icon-links p a{
-        font-size: 14px;
-        line-height: 20px;
-    }
+    
     .navbar-brand{
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .spaceleft-right.header-section-wrapper{
         padding: 30px 10px 0px;
@@ -1575,7 +1595,8 @@ a:hover{
         font-size: 24px;
     }
     .section-content h2{
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 30px;
     }
     .tab-content h5{
         font-size: 25px;
@@ -1601,5 +1622,18 @@ a:hover{
     }
     .margin-bottom-50{
         margin-bottom: 40px;
+    }
+    .section-content p {
+        color: #000000;
+        font-size: 18px;
+    }
+    .btn-style{
+        font-size: 16px;
+    }
+    .space-top-bottom-100{
+        padding: 60px 0px;
+    }
+    .tab-content-text p {
+        font-size: 18px;
     }
 }
