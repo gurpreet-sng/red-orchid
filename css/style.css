@@ -3,7 +3,9 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
-
+.tabimage{
+    margin-bottom: 40px;
+}
 .company-information a:hover{
     color: #af864d;
 }
