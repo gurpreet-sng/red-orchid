@@ -6,6 +6,9 @@ body{
 .navbar-brand:hover{
     color: #ffffff;
 }
+.navbar .arrow-buttons{
+    text-align: right;
+}
 .navbar-brand:focus{
     color: #ffffff;
 }
